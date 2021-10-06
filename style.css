@@ -1,0 +1,33 @@
+*{margin: 0;padding: 0;}
+.menu{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: royalblue;
+}
+.btn{
+    width: 130px;
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transform:
+        rotate(-30deg)
+        skewX(25deg)
+        translate(0.0);
+    box-shadow: -10px 10px 10px
+            rgba(0, 0, 0, 0.5);
+    background: tomato;
+    color: white;
+    transition: all 0.4s;
+    position: relative;
+}
+.btn:hover{
+    transform: rotate(-30deg) skewX(25deg) translate(20px, -20px);
+    box-shadow: -30px 30px 10px rgba(0, 0, 0, 0.5);
+}
